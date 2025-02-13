@@ -654,7 +654,7 @@
             </div>
           </div>
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <form action="https://formspree.io/f/meoeldel" method="POST">
+            <form action="https://formspree.io/f/meoeldel" method="POST" id="contactus">
               <div class="row">
                 <div class="col-6 mb-3">
                   <input
@@ -781,6 +781,7 @@
               Copyright &copy;
               <script>
                 document.write(new Date().getFullYear());
+                
               </script>
               . All Rights Reserved.</a>
               <!-- License information: https://untree.co/license/ -->
@@ -799,7 +800,16 @@
         <span class="visually-hidden">Loading...</span>
       </div>
     </div>
-
+<!-- Add this in your head section for better UX -->
+<script>
+  window.formspreeForm = document.getElementById('#contactus'); 
+  window.formspreeSuccess = function(response) { 
+    alert('Message sent successfully!');
+  }
+  window.formspreeError = function(error) { 
+    alert('Error sending message. Please try again.'); 
+  }
+</script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/tiny-slider.js"></script>
     <script src="js/aos.js"></script>
