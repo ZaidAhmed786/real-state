@@ -12075,7 +12075,8 @@ body {
 .site-nav {
   padding-top: 20px;
   padding-bottom: 20px;
-  position: fixed;
+  position: relative;
+  height: 195px;
   top: 0;
   z-index: 9;
   width: 100%;
