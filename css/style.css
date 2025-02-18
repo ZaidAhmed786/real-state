@@ -37,7 +37,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #00204a;
-  --bs-secondary: #005555;
+  --bs-secondary: #039fda;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -3302,8 +3302,8 @@ fieldset:disabled .btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #005555;
-  border-color: #005555;
+  background-color: #039fda;
+  border-color: #039fda;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -3338,8 +3338,8 @@ fieldset:disabled .btn {
 .btn-secondary:disabled,
 .btn-secondary.disabled {
   color: #fff;
-  background-color: #005555;
-  border-color: #005555;
+  background-color: #039fda;
+  border-color: #039fda;
 }
 
 .btn-success {
@@ -3632,13 +3632,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary {
-  color: #005555;
-  border-color: #005555;
+  color: #039fda;
+  border-color: #039fda;
 }
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #005555;
-  border-color: #005555;
+  background-color: #039fda;
+  border-color: #039fda;
 }
 .btn-check:focus + .btn-outline-secondary,
 .btn-outline-secondary:focus {
@@ -3651,8 +3651,8 @@ fieldset:disabled .btn {
 .btn-outline-secondary.active,
 .btn-outline-secondary.dropdown-toggle.show {
   color: #fff;
-  background-color: #005555;
-  border-color: #005555;
+  background-color: #039fda;
+  border-color: #039fda;
 }
 .btn-check:checked + .btn-outline-secondary:focus,
 .btn-check:active + .btn-outline-secondary:focus,
@@ -3664,7 +3664,7 @@ fieldset:disabled .btn {
 }
 .btn-outline-secondary:disabled,
 .btn-outline-secondary.disabled {
-  color: #005555;
+  color: #039fda;
   background-color: transparent;
 }
 
@@ -7434,7 +7434,7 @@ fieldset:disabled .btn {
 }
 
 .link-secondary {
-  color: #005555;
+  color: #039fda;
 }
 .link-secondary:hover,
 .link-secondary:focus {
@@ -7930,7 +7930,7 @@ fieldset:disabled .btn {
 }
 
 .border-secondary {
-  border-color: #005555 !important;
+  border-color: #039fda !important;
 }
 
 .border-success {
@@ -12734,7 +12734,7 @@ textarea {
 }
 
 .menu-bg-wrap {
-  background-color: #005555;
+  background-color: #039fda;
   padding: 20px 30px;
   position: relative;
   float: left;
@@ -12811,7 +12811,7 @@ textarea {
   margin-right: 10px;
 }
 .hero .form-search .btn {
-  background-color: #005555;
+  background-color: #039fda;
   padding-left: 30px;
   padding-right: 30px;
   color: #fff;
@@ -12910,7 +12910,7 @@ textarea {
   transition: 0.3s all ease;
 }
 .btn.btn-primary {
-  background: #005555;
+  background: #039fda;
   color: #fff;
 }
 .btn:hover {
@@ -13057,7 +13057,7 @@ textarea {
   color: #000;
 }
 .property-item .property-content .price {
-  color: #005555;
+  color: #039fda;
 }
 .property-item .property-content .price span {
   position: relative;
@@ -13071,7 +13071,7 @@ textarea {
   height: 2px;
   left: 0;
   bottom: 0;
-  background-color: #005555;
+  background-color: #039fda;
 }
 .property-item .property-content .specs {
   font-size: 18px;
@@ -13527,7 +13527,7 @@ nav[aria-label="breadcrumb"] li:before {
   width: 100%;
   bottom: 0;
   height: 2px;
-  background-color: #005555;
+  background-color: #039fda;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
