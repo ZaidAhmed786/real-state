@@ -8897,7 +8897,7 @@ body {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: white !important;
 }
 
 .text-reset {
@@ -12101,7 +12101,7 @@ body {
   padding: 10px 15px;
   display: inline-block;
   text-decoration: none !important;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
 }
 .site-nav .site-navigation .site-menu > li > a:hover {
   color: #fff;
@@ -12953,7 +12953,7 @@ textarea {
   content: "";
   width: 15px;
   height: 2px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: white;
   right: 0;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
@@ -13302,7 +13302,7 @@ textarea {
 #hero-nav .next {
   position: absolute;
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
