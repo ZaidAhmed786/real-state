@@ -42,7 +42,7 @@
     <div class="site-mobile-menu-body"></div>
   </div>
 
-  <div class="site-nav-main">
+  <!-- <div class="site-nav-main"> -->
     <nav class="site-nav">
       <div class="container">
         <div class="menu-bg-wrap">
@@ -66,24 +66,34 @@
         </div>
       </div>
     </nav>
-  </div>
+  <!-- </div> -->
 
   <div class="hero">
+    <!-- Hero Slides -->
     <div class="hero-slide">
-      <div class="img overlay" style="background-image: url('images/hero_bg_3.jpg')"></div>
-      <div class="img overlay" style="background-image: url('images/hero_bg_2.jpg')"></div>
-      <div class="img overlay" style="background-image: url('images/hero_bg_1.jpg')"></div>
+      <div class="img overlay" style="background-image: url('images/hero_bg_3.jpg');"></div>
+      <div class="img overlay" style="background-image: url('images/hero_bg_2.jpg');"></div>
+      <div class="img overlay" style="background-image: url('images/hero_bg_1.jpg');"></div>
     </div>
-
+  
+    <!-- Hero Content -->
     <div class="container">
       <div class="row justify-content-center align-items-center">
-        <div class="col-lg-9 text-center">
-          <h1 class="heading bg-dark" style="font-size: 70px;" data-aos="fade-up">
+        <div class="col-lg-8 text-center">
+          <!-- Main Heading -->
+          <h1 class="heading display-3 text-white mb-4" data-aos="fade-up" data-aos-delay="100">
             ELEVATE HOME BUYERS
           </h1>
-          <h1 class="heading bg-light text-dark" data-aos="fade-up">
-            Turning Real Estate Challenges into Win-Win Solutions.
-          </h1>
+          <!-- Subheading -->
+          <h2 class="heading text-light mb-5" data-aos="fade-up" data-aos-delay="200">
+            Turning Real Estate Challenges into <span class="text-warning">Win-Win Solutions</span>.
+          </h2>
+          <!-- Call-to-Action Button -->
+          <div data-aos="fade-up" data-aos-delay="300">
+            <a href="tel:+12055788697" class="btn btn-primary btn-lg px-5 py-3">
+              Get Your Cash Offer Today
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -601,6 +611,27 @@
           <script src="js/navbar.js"></script>
           <script src="js/counter.js"></script>
           <script src="js/custom.js"></script>
+          <script>document.addEventListener("DOMContentLoaded", function () {
+            const slides = document.querySelectorAll(".hero-slide .img");
+            let currentSlide = 0;
+          
+            function showSlide(index) {
+              slides.forEach((slide, i) => {
+                slide.style.opacity = i === index ? 1 : 1;
+              });
+            }
+          
+            function nextSlide() {
+              currentSlide = (currentSlide + 1) % slides.length;
+              showSlide(currentSlide);
+            }
+          
+            // Show the first slide initially
+            showSlide(currentSlide);
+          
+            // Change slide every 5 seconds
+            setInterval(nextSlide, 5000);
+          });</script>
 </body>
 
 </html>
