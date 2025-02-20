@@ -12916,6 +12916,12 @@ textarea {
 .btn.btn-primary {
   background: #039fda;
   color: #fff;
+  transition: background-color 0.3s ease;
+  }
+  
+  .btn.btn-primary:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
 }
 .btn:hover {
   top: -2px;
