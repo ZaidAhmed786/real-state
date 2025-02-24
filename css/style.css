@@ -13725,3 +13725,28 @@ nav[aria-label="breadcrumb"] li:before {
   opacity: 1;
   transform: translateY(0);
 }
+body{
+  font-family: Garet;
+}
+@font-face {
+  font-family: 'Garet'; /* Name your font */
+  src:
+  url('../fonts/garet/Garet-Book.otf') format('otf'),
+  url('../fonts/garet/Garet-Book.ttf') format('ttf'),
+  url('../fonts/garet/Garet-Book.woff') format('woff'),
+  url('../fonts/garet/Garet-Book.woff2') format('woff2'),
+  url('../fonts/garet/Garet-Heavy.otf') format('otf'),
+  url('../fonts/garet/Garet-Heavy.ttf') format('ttf'),
+  url('../fonts/garet/Garet-Heavy.woff') format('woff'),
+  url('../fonts/garet/Garet-Heavy.woff2') format('woff2');/* Modern browsers */
+  font-weight: normal; /* Specify font weight */
+  font-style: normal; /* Specify font style */
+  font-display: swap; /* Ensures text is visible while the font loads */
+}
+@font-face {
+  font-family: 'Alta'; /* Name your font */
+  src:
+  url('../fonts/Alta_Typeface/Alta_caption.woff') format('woff'),
+  url('../fonts/Alta_Typeface/Alta_light.woff') format('woff'),
+  url('../fonts/Alta_Typeface/Alta_regular.woff') format('woff');
+}
