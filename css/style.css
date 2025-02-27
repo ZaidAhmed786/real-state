@@ -13749,4 +13749,33 @@ body{
   url('../fonts/Alta_Typeface/Alta_caption.woff') format('woff'),
   url('../fonts/Alta_Typeface/Alta_light.woff') format('woff'),
   url('../fonts/Alta_Typeface/Alta_regular.woff') format('woff');
+}/* Default styles for desktop */
+.mobile-content {
+  margin-top: 20vh; /* Adjust as needed */
+}
+
+.mobile-button {
+  width: auto; /* Allow the button to shrink/grow as needed */
+  padding: 10px 20px; /* Adjust padding for mobile */
+}
+
+/* Mobile screens (typically less than 768px) */
+@media (max-width: 767.98px) {
+  .mobile-content {
+    margin-top: 10vh; /* Reduce margin-top for mobile */
+  }
+
+  .mobile-button {
+    width: 100%; /* Make the button full width on mobile */
+    padding: 12px 24px; /* Adjust padding for better touch targets */
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+
+  h1.heading {
+    font-size: 2rem; /* Reduce font size for mobile */
+  }
+
+  h2.heading {
+    font-size: 1.25rem; /* Reduce font size for mobile */
+  }
 }
