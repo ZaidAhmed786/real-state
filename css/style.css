@@ -8892,7 +8892,7 @@ fieldset:disabled .btn {
 .text-black-50,
 body {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(0, 0, 0, 1) !important;
 }
 
 .text-white-50 {
